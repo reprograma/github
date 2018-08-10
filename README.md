@@ -1,6 +1,6 @@
 ## GIT, GITHUB e linha de comando
 
-##### [O que é Git?](https://github.com/reprograma/github#o-que-e-git)
+##### [O que é Git?](https://github.com/reprograma/github#o-que-%C3%A9-git)
 ##### [Por que o Git é importante?](https://github.com/reprograma/github#por-que-o-git-e-importante)
 ##### [O que é GitHub?](https://github.com/reprograma/github#o-que-e-github)
 ##### [Por que o GitHub é importante?](https://github.com/reprograma/github#por-que-o-github-e-importante)
