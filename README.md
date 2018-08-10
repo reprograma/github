@@ -1,4 +1,4 @@
-## GIT, GITHUB e linha de comando
+# Git, GitHub e linha de comando
 
 * [O que é Git?](#o-que-é-git)
 * [Por que o Git é importante?](#por-que-o-git-é-importante)
@@ -7,23 +7,25 @@
 * [O que é linha de comando?](#o-que-é-linha-de-comando)
 * [Por que a linha de comando é importante?](#por-que-a-linha-de-comando-é-importante)
 * [O que é GitHub Desktop?](#o-que-é-github-desktop)
-* [Por que o GitHub Desktop é importante?](https://github.com/reprograma/github#por-que-o-github-desktop-e-importante)
-* [Comandos básicos do terminal](https://github.com/reprograma/github#comandos-basicos-do-terminal)
-* [Começando com o Git](https://github.com/reprograma/github#comecando-com-o-git)
-* [Fluxo do git](https://github.com/reprograma/github#fluxo-do-git)
-* [Instalando/verificando se o Git está instalado](https://github.com/reprograma/github#instalandoverificando-se-o-git-esta-instalado)
-* [Formas de trabalhar com o Git/GitHub](https://github.com/reprograma/github#formas-de-trabalhar-com-o-gitgithub)
-* [Pra não esquecer:](https://github.com/reprograma/github#pra-nao-esquecer)
-* [GitHub Pages](https://github.com/reprograma/github#github-pages)
-* [Branch](https://github.com/reprograma/github#branch)
-* [Merge](https://github.com/reprograma/github#merge)
-* [Fork](https://github.com/reprograma/github#fork)
-* [Pull request](https://github.com/reprograma/github#pull-request)
-* [Links com mais conteúdo para consulta](https://github.com/reprograma/github#links-com-mais-conteudo-para-consulta)
+* [Por que o GitHub Desktop é importante?](#por-que-o-github-desktop-é-importante)
+* [Comandos básicos do terminal](#comandos-basicos-do-terminal)
+* [Começando com o Git](#comecando-com-o-git)
+* [Fluxo do git](#fluxo-do-git)
+* [Instalando/verificando se o Git está instalado](#instalandoverificando-se-o-git-está-instalado)
+* [Formas de trabalhar com o Git/GitHub](#formas-de-trabalhar-com-o-gitgithub)
+* [Pra não esquecer:](#pra-nao-esquecer)
+* [GitHub Pages](#github-pages)
+* [Branch](#branch)
+* [Merge](#merge)
+* [Fork](#fork)
+* [Pull request](#pull-request)
+* [Links com mais conteúdo para consulta](#links-com-mais-conteúdo-para-consulta)
 
 ***
 
 ### O que é Git?
+![Mockup](images/git.png)
+
 É um programa open source de controle de versão de código, criado pelo mesmo desenvolvedor do Linux.
 Com o GIT podemos desenvolver projetos colaborativos, onde outras pessoas podem trabalhar simultaneamente no mesmo código sem riscos de perdermos nada do nosso trabalho.
 Com o Git também conseguimos ter um histórico de tudo que foi alterado nos arquivos ao longo do tempo, além de mostrar quem foi o autor da mudança.
@@ -32,30 +34,32 @@ Se formos utilizar um exemplo para exemplificar o Git, podemos dizer que ele usa
 
 ### Por que o Git é importante?
 
-1. Organização: O Git cria uma timeline com tudo que aconteceu desde o início do projeto. Tudo que foi adicionado, removido, e quem foi o autor.
-2. Projetos com várias pessoas: Evita o “final_valendo_valendo2_oficial”. Tamém facilita o trabalho em equipe (entender o que foi feito, onde parou, quem fez o que).
-3. Segurança:  Se algo der errado, você pode resgatar uma versão anterior, além  de ter o seu projeto salvo em um lugar seguro.
+* Organização: O Git cria uma timeline com tudo que aconteceu desde o início do projeto. Tudo que foi adicionado, removido, e quem foi o autor.
+* Projetos com várias pessoas: Evita o “final_valendo_valendo2_oficial”. Tamém facilita o trabalho em equipe (entender o que foi feito, onde parou, quem fez o que).
+* Segurança:  Se algo der errado, você pode resgatar uma versão anterior, além  de ter o seu projeto salvo em um lugar seguro.
 
 
 ### O que é GitHub?
+![Mockup](images/github.png)
+
 É uma espécie de rede social muito utilizada principalmente por desenvolvedores, onde você pode publicar e compartilhar todos os seus projetos pessoais e particulares, além de colaborar com projetos de pessoas e empresas de todo o mundo.
 É uma forma mais visual de trabalhar com o Git, pois possui uma interface gráfica e também apps para desktop.
 Você pode salvar todos seus projetos de forma pública no seu perfil (qualquer pessoa, mesmo sem ter uma conta pode ver e baixar tudo o que você publicar), e de forma privada (somente membros com permissão de acesso podem visualizar ou baixar seu projeto) a partir de $7/m.
-O GitHub nasceu como uma empresa OpenSource e recentemente foi adquirido por (adicionar valor da compra) pela Microsoft.
+O GitHub é uma startup americana e recentemente foi adquirido por $7.5 bilhões (isso mesmo, [bilhões](https://techcrunch.com/2018/06/04/microsoft-has-acquired-github-for-7-5b-in-microsoft-stock/)) pela Microsoft.
 
 Resumidamente: Você trabalha na sua máquina e salva versões do seu código no GitHub, e também pode baixar cópias do código que está hospedado GitHub para a sua máquina.
 
 
-
 ### Por que o GitHub é importante?
-1. Portfólio - É um site seguro para guardar e mostrar seus projetos. Não é incomum as empresas pedirem apenas seu GitHub antes de uma entrevista de emprego.
-2. Organização - Permite que todo mundo trabalhe no mesmo projeto (seja um projeto da sua empresa ou um Open Source).
-3. Ferramentas - Porque oferece funcionalidades extras ao git, como interface visual, documentação, bug tracking, feature requests, pull requests, etc.
-4. Versatilidade: Você pode guardar qualquer tipo de arquivo no git/Github, não necessariamente código. Por exemplo, essa aula que estamos vendo. O Github utiliza uma linguagem chamada Markdown, que permite criar listas, links, ancôras, adicionar imagens, vídeos, gifs... (link markdown)
+* Portfólio - É um site seguro para guardar e mostrar seus projetos. Não é incomum as empresas pedirem apenas seu GitHub antes de uma entrevista de emprego.
+* Organização - Permite que todo mundo trabalhe no mesmo projeto (seja um projeto da sua empresa ou um Open Source).
+* Ferramentas - Porque oferece funcionalidades extras ao git, como interface visual, documentação, bug tracking, feature requests, pull requests, etc.
+* Versatilidade: Você pode guardar qualquer tipo de arquivo no git/Github, não necessariamente código. Por exemplo, essa aula que estamos vendo. O Github utiliza uma linguagem chamada [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet), que permite criar listas, links, ancôras, adicionar imagens, vídeos, gifs...
 
 
 ### O que é linha de comando?
-imagem
+![Mockup](images/terminal.png)
+
 É aquela tela preta que aparece nos filmes, normalmente com alguém hackeando algum sistema.
 Mexer com o terminal assusta um pouco porque ele não é nem um pouco visual. Mas é muito simples mexer nele.
 Sabe quando a gente arrasta arquivos para uma pasta ou cria uma pasta nova? No terminal você faz tudo isso também, mas sem interface gráfica. A gente insere comandos, e ele executa.
@@ -106,12 +110,14 @@ Algumas palavras novas que vamos usar com o Git/GitHub
 
 
 ### Fluxo do git
-imagem
+![Mockup](images/flow.png)
+
 Tudo isso está acontecendo apenas localmente no seu computador!
 
 Cada etiqueta vai gerando um ponto na nossa timeline. Essa etiqueta se chama commit, e com essa pequena descrição fica mais fácil se achar entre as versões.
 
- imagem
+![Mockup](images/commit.png)
+
 
 ### Instalando/verificando se o Git está instalado
 
@@ -143,7 +149,8 @@ git config --global --unset-all user.email “patricia.tonella@gmail.com”
 Acessar https://github.com/ptonella
 2)  Acessar o repositório github-aula-1
 3)  Copiar a url abaixo:
-imagem
+![Mockup](images/clone.png)
+
 
 4)  Navegar até a pasta aonde você vai fazer o clone do projeto
 5) git clone url-que-vocês-copiaram
@@ -198,8 +205,8 @@ A partir do código que está no master podemos gerar outras cópias para serem 
 
 Essas cópias são chamadas de branch.
 
-imagem
-imagem
+![Mockup](images/master.png)
+![Mockup](images/branch.png)
 
 
 Comando para criar um novo branch:
@@ -217,11 +224,14 @@ Depois de criar um branch e fazer alterações no código, você precisa devolve
 
 Merge é mesclar um branch dentro de outro, juntando as alterações que já estavam no código do branch base com as alterações do outro branch.
 
+![Mockup](images/merge.png)
+![Mockup](images/merged.png)
 
 Se duas ou mais pessoas mexerem no mesmo arquivo simultaneamente, isso pode gerar conflito de código.
 O Git consegue resolver alguns desses conflitos automaticamente, mas em outros casos o desenvolvedor que está fazendo o merge tem que resolver esse conflito e depois continuar com o merge.
 
-imagem
+![Mockup](images/conflict.png)
+
 
 Comando para fazer merge de um branch em outro:
 
