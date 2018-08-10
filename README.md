@@ -1,26 +1,25 @@
 ## GIT, GITHUB e linha de comando
 
-### O que é Git?
-### Por que o Git é importante?
-### O que é GitHub?
-### Por que o GitHub é importante?
-### O que é linha de comando?
-### Por que a linha de comando é importante?
-### O que é GitHub Desktop?
-### Por que o GitHub Desktop é importante?
-### Comandos básicos do terminal
-### Começando com o Git
-### Fluxo do git
-### Instalando/verificando se o Git está instalado
-### Formas de trabalhar com o Git/GitHub
-### Pra não esquecer:
-### GitHub Pages
-### Branch
-### Merge
-### Fork
-### Pull request
-### Links com mais conteúdo para consulta
-
+##### [O que é Git?](https://github.com/reprograma/github#o-que-e-git)
+##### [Por que o Git é importante?](https://github.com/reprograma/github#por-que-o-git-e-importante)
+##### [O que é GitHub?](https://github.com/reprograma/github#o-que-e-github)
+##### [Por que o GitHub é importante?](https://github.com/reprograma/github#por-que-o-github-e-importante)
+##### [O que é linha de comando?](https://github.com/reprograma/github#o-que-e-linha-de-comando)
+##### [Por que a linha de comando é importante?](https://github.com/reprograma/github#por-que-a-linha-de-comando-e-importante)
+##### [O que é GitHub Desktop?](https://github.com/reprograma/github#o-que-e-github-desktop)
+##### [Por que o GitHub Desktop é importante?](https://github.com/reprograma/github#por-que-o-github-desktop-e-importante)
+##### [Comandos básicos do terminal](https://github.com/reprograma/github#comandos-basicos-do-terminal)
+##### [Começando com o Git](https://github.com/reprograma/github#comecando-com-o-git)
+##### [Fluxo do git](https://github.com/reprograma/github#fluxo-do-git)
+##### [Instalando/verificando se o Git está instalado](https://github.com/reprograma/github#instalandoverificando-se-o-git-esta-instalado)
+##### [Formas de trabalhar com o Git/GitHub](https://github.com/reprograma/github#formas-de-trabalhar-com-o-gitgithub)
+##### [Pra não esquecer:](https://github.com/reprograma/github#pra-nao-esquecer)
+##### [GitHub Pages](https://github.com/reprograma/github#github-pages)
+##### [Branch](https://github.com/reprograma/github#branch)
+##### [Merge](https://github.com/reprograma/github#merge)
+##### [Fork](https://github.com/reprograma/github#fork)
+##### [Pull request](https://github.com/reprograma/github#pull-request)
+##### [Links com mais conteúdo para consulta](https://github.com/reprograma/github#links-com-mais-conteudo-para-consulta)
 
 ***
 
@@ -31,7 +30,7 @@ Com o Git também conseguimos ter um histórico de tudo que foi alterado nos arq
 Se formos utilizar um exemplo para exemplificar o Git, podemos dizer que ele usa a mesma lógica do Google Drive. Várias pessoas trabalando simultaneamente no mesmo arquivo, adicionando e removendo conteúdos, além de termos a opção de consultar o histórico do que e quando foi modificado.
 
 
-### Por que é importante?
+### Por que o Git é importante?
 
 1. Organização: O Git cria uma timeline com tudo que aconteceu desde o início do projeto. Tudo que foi adicionado, removido, e quem foi o autor.
 2. Projetos com várias pessoas: Evita o “final_valendo_valendo2_oficial”. Tamém facilita o trabalho em equipe (entender o que foi feito, onde parou, quem fez o que).
@@ -61,7 +60,7 @@ imagem
 Mexer com o terminal assusta um pouco porque ele não é nem um pouco visual. Mas é muito simples mexer nele.
 Sabe quando a gente arrasta arquivos para uma pasta ou cria uma pasta nova? No terminal você faz tudo isso também, mas sem interface gráfica. A gente insere comandos, e ele executa.
 
-### Por que é importante trabalhar com linha de comando?
+### Por que a linha de comando é importante?
  Na linha de comando você controla melhor o que está rolando com o seu computador - inclusive o versionamento. O git é sempre usado através de linha de comando. (O GitHub tem ferramentas visuais para uso do Git, mas é importante saber se virar pela linha de comando)
 
 
