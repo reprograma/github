@@ -1,31 +1,59 @@
-## GIT e GITHUB - E um pouquinho de linha de comando
+## GIT, GITHUB e linha de comando
+
+### O que é Git?
+### Por que o Git é importante?
+### O que é GitHub?
+### Por que o GitHub é importante?
+### O que é linha de comando?
+### Por que a linha de comando é importante?
+### O que é GitHub Desktop?
+### Por que o GitHub Desktop é importante?
+### Comandos básicos do terminal
+### Começando com o Git
+### Fluxo do git
+### Instalando/verificando se o Git está instalado
+### Formas de trabalhar com o Git/GitHub
+### Pra não esquecer:
+### GitHub Pages
+### Branch
+### Merge
+### Fork
+### Pull request
+### Links com mais conteúdo para consulta
+
 
 ***
 
 ### O que é Git?
-É um programa open source de controle de versão de código,  criado pelo mesmo desenvolvedor do Linux.
-Com o GIT podemos desenvolver projetos colaborativos, onde outras pessoas podem trabalhar simultaneamente no mesmo código sem riscos de perdermos nada do trabalho.
+É um programa open source de controle de versão de código, criado pelo mesmo desenvolvedor do Linux.
+Com o GIT podemos desenvolver projetos colaborativos, onde outras pessoas podem trabalhar simultaneamente no mesmo código sem riscos de perdermos nada do nosso trabalho.
 Com o Git também conseguimos ter um histórico de tudo que foi alterado nos arquivos ao longo do tempo, além de mostrar quem foi o autor da mudança.
+Se formos utilizar um exemplo para exemplificar o Git, podemos dizer que ele usa a mesma lógica do Google Drive. Várias pessoas trabalando simultaneamente no mesmo arquivo, adicionando e removendo conteúdos, além de termos a opção de consultar o histórico do que e quando foi modificado.
 
-Resumidamente: Você trabalha na sua máquina e salva versões do seu código no GitHub, e também pode baixar versões de código do GitHub para a sua máquina.
 
 ### Por que é importante?
 
-1. Organização: Porque você não vai lembrar o que mudou no projeto, o Git cria uma timeline com tudo que aconteceu desde o início do projeto).
-2. Projetos com várias pessoas: Evita o “final_valendo_valendo2_oficial” Ajuda trabalho em equipe ( entender o que foi feito, onde parou, quem fez o que).
-3. Segurança:  Se algo der errado, você pode resgatar uma versão anterior, além  de ter o seu código salvo em um lugar seguro.
-4. Versatilidade: Você pode guardar qualquer tipo de arquivo no git/Github, não necessariamente código.
+1. Organização: O Git cria uma timeline com tudo que aconteceu desde o início do projeto. Tudo que foi adicionado, removido, e quem foi o autor.
+2. Projetos com várias pessoas: Evita o “final_valendo_valendo2_oficial”. Tamém facilita o trabalho em equipe (entender o que foi feito, onde parou, quem fez o que).
+3. Segurança:  Se algo der errado, você pode resgatar uma versão anterior, além  de ter o seu projeto salvo em um lugar seguro.
 
 
 ### O que é GitHub?
-É uma espécie de rede social muito utilizada principalmente por desenvolvedores, onde você pode publicar e compartilhar todos os seus projetos, além de colaborar com projetos de pessoas e empresas de todo o mundo.
-Você pode salvar todos seus projetos de forma pública no seu perfil, e de forma privada  por $7/m.
+É uma espécie de rede social muito utilizada principalmente por desenvolvedores, onde você pode publicar e compartilhar todos os seus projetos pessoais e particulares, além de colaborar com projetos de pessoas e empresas de todo o mundo.
+É uma forma mais visual de trabalhar com o Git, pois possui uma interface gráfica e também apps para desktop.
+Você pode salvar todos seus projetos de forma pública no seu perfil (qualquer pessoa, mesmo sem ter uma conta pode ver e baixar tudo o que você publicar), e de forma privada (somente membros com permissão de acesso podem visualizar ou baixar seu projeto) a partir de $7/m.
+O GitHub nasceu como uma empresa OpenSource e recentemente foi adquirido por (adicionar valor da compra) pela Microsoft.
+
+Resumidamente: Você trabalha na sua máquina e salva versões do seu código no GitHub, e também pode baixar cópias do código que está hospedado GitHub para a sua máquina.
 
 
-### Por que é importante?
-1. Portfólio - Porque é um lugar para guardar e mostrar seus projetos.
-2. Organização - Porque permite que todo mundo trabalhe no mesmo projeto (seja um projeto da sua empresa ou um Open Source).
+
+### Por que o GitHub é importante?
+1. Portfólio - É um site seguro para guardar e mostrar seus projetos. Não é incomum as empresas pedirem apenas seu GitHub antes de uma entrevista de emprego.
+2. Organização - Permite que todo mundo trabalhe no mesmo projeto (seja um projeto da sua empresa ou um Open Source).
 3. Ferramentas - Porque oferece funcionalidades extras ao git, como interface visual, documentação, bug tracking, feature requests, pull requests, etc.
+4. Versatilidade: Você pode guardar qualquer tipo de arquivo no git/Github, não necessariamente código. Por exemplo, essa aula que estamos vendo. O Github utiliza uma linguagem chamada Markdown, que permite criar listas, links, ancôras, adicionar imagens, vídeos, gifs... (link markdown)
+
 
 ### O que é linha de comando?
 imagem
@@ -36,7 +64,18 @@ Sabe quando a gente arrasta arquivos para uma pasta ou cria uma pasta nova? No t
 ### Por que é importante trabalhar com linha de comando?
  Na linha de comando você controla melhor o que está rolando com o seu computador - inclusive o versionamento. O git é sempre usado através de linha de comando. (O GitHub tem ferramentas visuais para uso do Git, mas é importante saber se virar pela linha de comando)
 
+
+### O que é GitHub Desktop?
+É uma ferramenta visual para utilizar o Git/GitHub diretamente no seu computador. Você pode baixar uma cópia gratuita na sua máquina e utilizar todos os comandos do Git sem a linha de comando.
+
+### Por que o GitHub Desktop é importante?
+Por ter uma interface visual, a curva de aprendizado do Git com essa ferramenta é menor. Ela também faz com quem está iniciando se sinta mais seguro ao trabalhar com o Git. Porém é importante aprender bem como o Git funciona e utiliza-la como ferramenta de apoio.
+
+
 ### Comandos básicos do terminal
+
+Esses comandos servem para para listar arquivos e navegar entre pastas dentro do computador.
+
 ```
 ls - LISTAR (ele traz uma lista de tudo o que está naquela pasta - documentos, outras pastas, etc) *às vezes é dir no windows
 pwd - Present working directory (onde estou?) Ele traz todo o caminho onde você está (em que pasta e onde essa pasta fica)
@@ -56,9 +95,9 @@ Algumas palavras novas que vamos usar com o Git/GitHub
 
 `Repositório` É um espaço digital aonde o seu projeto vai ser salvo. No seu computador ele é a pasta aonde o seu projeto está salvo.
 
-`Controle de versão` É a proposta básica do Git, um histórico de tudo o que aconteceu com o/s arquivo/s que você está trabalhando. Por exemplo, quando você salva um arquivo do Word no seu computador, você perde todas as versões anteriores, ficando somente com o conteúdo atual. Com o Git você tem todas as versões antigas dos arquivos.
+`Controle de versão` É a proposta básica do Git, um histórico de tudo o que aconteceu com o(s) arquivo(s) que você está trabalhando. Por exemplo, quando você salva um arquivo do Word no seu computador, você perde todas as versões anteriores, ficando somente com o conteúdo atual. Com o Git você tem todas as versões antigas dos arquivos.
 
-`Commit` Quando você faz um commit com o Git, você está criando um controle de versão (histórico) daquele arquivo .
+`Commit` Quando você faz um commit com o Git, você está criando um controle de versão (histórico) daquele arquivo e criando uma etiqueta para facilitar o entendimento do que foi salvo naquele momento.
 
 `Pull` O pull serve para se comunicar entre a sua máquina e o repositório remoto. Esse comando faz uma cópia do repositório remoto e baixa ele para a sua máquina.
 
@@ -71,8 +110,7 @@ Algumas palavras novas que vamos usar com o Git/GitHub
 imagem
 Tudo isso está acontecendo apenas localmente no seu computador!
 
-Cada etiqueta vai gerando um ponto na nossa timeline. Essa etiqueta se chama
- commit, e com essa pequena descrição fica mais fácil se achar entre as versões.
+Cada etiqueta vai gerando um ponto na nossa timeline. Essa etiqueta se chama commit, e com essa pequena descrição fica mais fácil se achar entre as versões.
 
  imagem
 
@@ -92,30 +130,34 @@ git config --global --unset-all user.email “patricia.tonella@gmail.com”
 
 ### Formas de trabalhar com o Git/GitHub
 
-Baixar um projeto que está hospedado no GitHub para a nossa máquina
+1) Baixar um projeto que está hospedado no GitHub para a nossa máquina
 
-2)  Iniciar um projeto na minha máquina e subir para o GitHub
+2) Iniciar um projeto novo na minha máquina e subir para o GitHub
 
-Baixar um projeto que está hospedado no GitHub para a nossa máquina
+
+
+
+#### Baixar um projeto que está hospedado no GitHub para a nossa máquina
+
+1) Acessar o GitHub e criar uma conta gratuita. Importante: utilizar um nome de usuário fácil de usar, pois essa url vai ser muito utilizada durante a vida profissional.
 
 Acessar https://github.com/ptonella
 2)  Acessar o repositório github-aula-1
 3)  Copiar a url abaixo:
 imagem
 
-
 4)  Navegar até a pasta aonde você vai fazer o clone do projeto
 5) git clone url-que-vocês-copiaram
 
 
-2) Iniciar um projeto local e subir pro GitHub
+#### Iniciar um projeto local e subir pro GitHub
 
 1) Navegar pela linha de comando até a pasta desejada
-2)  Rodar o comando  git status
+2) Rodar o comando  git status
   Provavelmente o Git não vai estar iniciado nessa pasta, então vamos rodar um comando para avisar para o Git começar a versionar essa pasta:  git init
 3) Criar uma conta no GitHub
-4) Criar um repositório no GitHub  (colocar o nome do projeto de vocês)
-5) Copiar a url  do repositório (igual vocês fizeram no exemplo anterior)
+4) Criar um repositório no GitHub (colocar o nome do projeto de vocês)
+5) Copiar a url do repositório (igual vocês fizeram no exemplo anterior)
 6) git add . (para adicionar todos os arquivos de uma vez) ou git add caminho-do-arquivo
 git commit -m “Aqui você escreve uma mensagem que ajude quem estiver lendo a saber o que você adicionou/modificou nos arquivos“
 git remote add origin url-que-voces-copiaram-do-github
@@ -126,17 +168,10 @@ Abrir o repositório no GitHub. Os arquivos que estavam na máquina de vocês ag
 
 8)  A partir de agora, sempre que vocês modficarem/adicionarem/removerem arquivos nessa pasta, o Git vai saber e  vai mostrar tudo o que foi modificado/adicionado/removido.
 
-9) Para os próximos passos, os comandos que vocês vão usar sempre são (nessa sequência):
-6)  git status (para ver a lista do que foi modificado)
-7) git add . (para adicionar todos os arquivos de uma vez) ou git add caminho-do-arquivo
-8) git commit -m “Mensagem”
-9) git pull origin master (SEMPRE FAZER UM PULL ANTES DO PUSH)
-10) git push origin master
-
 
 ### Pra não esquecer:
 (comandos que mais vamos usar)
-6)  git status (para ver a lista de arquivos modificados)
+6) git status (para ver a lista de arquivos modificados)
 7) git add . (para adicionar todos os arquivos de uma vez) ou git add caminho-do-arquivo
 
 8) git commit -m “Mensagem” (cria um histórico daquele arquivo com uma etiqueta explicando o que foi feito)
@@ -145,10 +180,11 @@ Abrir o repositório no GitHub. Os arquivos que estavam na máquina de vocês ag
 
 10) git push origin master (envia as modificações para o repositório remoto)
 
-### GitHub Pages
-Quem tem uma conta no GitHub pode ter acesso a uma hospedagem gratuita  para os projetos que estão com o código hospedado no GitHub.
 
- Criar um repositório no GitHub: username.github.io  (username deve ser o seu username do GitHub)
+### GitHub Pages
+Quem tem uma conta no GitHub pode ter acesso a uma hospedagem gratuita para os projetos que estão com o código hospedado no GitHub.
+
+Criar um repositório no GitHub: username.github.io  (username deve ser o seu username do GitHub)
 Clonar repositório na sua máquina
 Add arquivos
 Fazer o commit
@@ -157,7 +193,7 @@ Acessar https://username.github.io
 
 
 ### Branch
-O git tem uma linha do tempo principal chamada master, que é branch base criado junto com cada repositório. Quando trabalhamos sozinhas em um repositório não tem problema trabalharmos sempre no master, mas quando começamos a trabalhar com outras pessoas em um projeto, surge a necessidade de ter uma cópia do projeto que seja livre de bugs e que esteja funcionando 100%. Essa cópia é o master.
+O git tem uma linha do tempo principal chamada master, que é branch base criada junto com cada repositório. Quando trabalhamos sozinhas em um repositório não tem problema trabalharmos sempre no master, mas quando começamos a trabalhar com outras pessoas em um projeto, surge a necessidade de ter uma cópia do projeto que seja livre de bugs e que esteja funcionando 100%. Essa cópia é o master.
 
 A partir do código que está no master podemos gerar outras cópias para serem modificadas e depois devolvidas para o master.
 
@@ -171,7 +207,7 @@ Comando para criar um novo branch:
 git checkout -b nome-do-branch
 
 Comando para trocar de branch:
-git checkout  nome-do-branch
+git checkout nome-do-branch
 
 Comando para listar todos os branches locais:
 git branch
@@ -180,7 +216,7 @@ git branch
 
 Depois de criar um branch e fazer alterações no código, você precisa devolver essa sua cópia para o master. Você faz isso com o comando merge.
 
-Merge é mesclar um branch dentro de outro, juntando as alterações que já estavam no código do master com as alterações do outro branch.
+Merge é mesclar um branch dentro de outro, juntando as alterações que já estavam no código do branch base com as alterações do outro branch.
 
 
 Se duas ou mais pessoas mexerem no mesmo arquivo simultaneamente, isso pode gerar conflito de código.
@@ -212,6 +248,9 @@ https://github.com/octocat/Spoon-Knife/pulls
 Quando você faz um fork de um projeto, ou quando você trabalha em uma empresa com mais desenvolvedores, é normal que as demais pessoas envolvidas no projeto façam um review do seu código antes de ele ir pro master, afinal você pode ter cometido algum erro no desenvolvimento, ou alguma parte do seu código pode ser melhorada.
 
 Um pull request é quando você quer fazer merge do seu código em outro branch, mas você precisa da autorização das outras pessoas envolvidas no projeto.
+
+
+### Links com mais conteúdo para consulta
 
 Git e Github (textos e vídeos): https://guides.github.com/activities/hello-world/
 Curso Gratuito - https://www.udemy.com/git-e-github-para-iniciantes/
