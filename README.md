@@ -155,13 +155,13 @@ git config --global --unset-all user.email “patricia.tonella@gmail.com”
 #### Baixar um projeto que está hospedado no GitHub para a nossa máquina
 
 1) Acessar o GitHub e criar uma conta gratuita.
-*Importante:* utilizar um nome de usuário fácil de usar, pois essa url vai ser muito utilizada durante a vida profissional.
+**Importante:** utilizar um nome de usuário fácil de usar, pois essa url vai ser muito utilizada durante a vida profissional.
 
-2) Acessar https://github.com/ptonella
+2) Acessar https://github.com/reprograma
 3) Acessar o repositório `github`
 4) Clicar no botão `Clone or download` e copiar a url https
 4) Navegar até a pasta aonde você vai fazer o clone do projeto
-5) git clone url-que-vocês-copiaram
+5) `git clone url-que-vocês-copiaram`
 
 ***
 
@@ -191,7 +191,7 @@ A partir de agora, sempre que vocês modficarem/adicionarem/removerem arquivos n
 * `git pull origin master` (o comando PULL pega a versão do arquivo que está no repositório remoto e baixa para sua máquina.
 * `git push origin master` (envia as modificações para o repositório remoto)
 
-*Importante:* Fazer um `pull` sempre antes do `push` para evitar conflitos e evitar apagar alguma informação remota
+**Importante:** Fazer um `pull` sempre antes do `push` para evitar conflitos e evitar apagar alguma informação remota
 
 ***
 
@@ -248,7 +248,7 @@ Comando para fazer merge de um branch em outro:
 
 `git merge nome-do-branch-que-vai-ser-mergeado`
 
-*Importante:* Quando você rodar esse comando, o merge do nome-do-branch-que-vai-ser-mergeado vai ser feito com o branch em que você está no momento
+**Importante:** Quando você rodar esse comando, o merge do nome-do-branch-que-vai-ser-mergeado vai ser feito com o branch em que você está no momento
 
 Pra saber em qual branch você está: `git status`
 
