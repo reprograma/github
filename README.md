@@ -8,7 +8,7 @@
 * [Por que a linha de comando é importante?](#por-que-a-linha-de-comando-é-importante)
 * [O que é GitHub Desktop?](#o-que-é-github-desktop)
 * [Por que o GitHub Desktop é importante?](#por-que-o-github-desktop-é-importante)
-* [Comandos básicos do terminal](#comandos-basicos-do-terminal)
+* [Comandos básicos do terminal](#comandos-básicos-do-terminal)
 * [Começando com o Git](#comecando-com-o-git)
 * [Fluxo do git](#fluxo-do-git)
 * [Instalando/verificando se o Git está instalado](#instalandoverificando-se-o-git-está-instalado)
@@ -19,6 +19,7 @@
 * [Merge](#merge)
 * [Fork](#fork)
 * [Pull request](#pull-request)
+* [Como configurar a sua conta de GitHub na sua máquina](#como-configurara-a-sua-conta-de-GitHub-na-sua-máquina)
 * [Links com mais conteúdo para consulta](#links-com-mais-conteúdo-para-consulta)
 
 ***
@@ -270,6 +271,12 @@ https://github.com/octocat/Spoon-Knife/pulls
 Quando você faz um fork de um projeto, ou quando você trabalha em uma empresa com mais desenvolvedores, é normal que as demais pessoas envolvidas no projeto façam um review do seu código antes de ele ir pro master, afinal você pode ter cometido algum erro no desenvolvimento, ou alguma parte do seu código pode ser melhorada.
 
 Um pull request é quando você quer fazer merge do seu código em outro branch, mas você precisa da autorização das outras pessoas envolvidas no projeto.
+
+***
+
+### Como configurar a sua conta de GitHub na sua máquina
+
+https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/
 
 ***
 
