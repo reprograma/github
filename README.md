@@ -133,14 +133,14 @@ Digite git status na linha de comando, e várias instruções e sugestões do gi
  Comandos para usar uma vez na vida: (assim o git sabe quem está fazendo as alterações) 
 
 ```
-git config --global user.name “Patricia Tonella" 
-git config --global user.email “patricia.tonella@gmail.com”
+git config --global user.name “Nome Sobrenome" 
+git config --global user.email “nomesobrenome@gmail.com”
 ```
 
 Para remover o usuário
 ```
-git config --global --unset-all user.name "Patricia Tonella"
-git config --global --unset-all user.email “patricia.tonella@gmail.com”
+git config --global --unset-all user.name "Nome Sobrenome"
+git config --global --unset-all user.email “nomesobrenome@gmail.com”
 ```
 
 ***
